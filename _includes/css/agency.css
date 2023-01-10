@@ -287,6 +287,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
 }
 
 header .intro-text {
@@ -358,6 +359,10 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+}
+
+#services {
+    padding-bottom: 0;
 }
 
 .service-heading {
@@ -510,6 +515,10 @@ section h3.section-subheading {
     text-align: center;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+}
+
+.timeline>li .timeline-image .fa {
+    margin-top: -7px;
 }
 
 .timeline>li .timeline-image h4 {
